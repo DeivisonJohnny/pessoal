@@ -34,7 +34,7 @@
 
 html, body {
     height: 100%;
-    width: 100%;
+    width: 100vw;
 }
 
 header {
@@ -43,6 +43,7 @@ header {
     /* height: 650px; */
     background-color: var(--cor1);
     padding: 20px;
+    width: 100vw;
 
 }
 
@@ -140,7 +141,25 @@ header #botao {
     transition: 0.2s;
 }
 
+nav {
+    display: flex;
+    justify-items: center;
+    /* width: min-content; */
+    height: 40px;
+}
+
+nav a {
+    height: 50px;
+    width: 50px;
+    margin: 0px 10px;
+}
+
 nav > a img {
     height: 25px;
-    padding: 0px 15px;
+}
+
+
+nav > a img:hover {
+    height: 30px;
+    transition: .2s;
 }
