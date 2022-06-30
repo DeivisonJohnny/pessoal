@@ -34,7 +34,7 @@
 
 html, body {
     height: 100%;
-    width: 100vw;
+    width: 100%;
 }
 
 header {
@@ -43,7 +43,6 @@ header {
     /* height: 650px; */
     background-color: var(--cor1);
     padding: 20px;
-    width: 100vw;
 
 }
 
