@@ -27,7 +27,7 @@
 * {
     margin: 0;
     padding: 0;
-    /* box-sizing: border-box; */
+    box-sizing: border-box;
 }
 
 /* cabecalho */
@@ -40,7 +40,6 @@ html, body {
 header {
     display: flex;
     align-items: center;
-    /* height: 650px; */
     background-color: var(--cor1);
     padding: 20px;
 
@@ -62,23 +61,6 @@ header {
     max-width: 800px;
     color: rgba(255, 255, 255, 0.438);
     font-family: var(--font1);
-}
-
-/* .menu {
-    display: block;
-    margin-left: 100vw;
-    text-align: right;
-
-} */
-
-.linha {
-    display: block;
-    border-radius: 2px;
-    content: " ";
-    margin: 4px;
-    width: 30px;
-    height: 4px;
-    background-color: white;
 }
 
 h1 {
@@ -110,7 +92,6 @@ header p {
 }
 
 .bgimg img {
-    /* margin-left: 8vw; */
     width: 20vw;
     
 }
@@ -129,7 +110,6 @@ header #botao {
     font-size: 18px;
     padding: 8px 20px;
     border-radius: 30px;
-    /* margin: 100px 0px; */
 }
 
 #botao:hover {
@@ -144,3 +124,69 @@ nav > a img {
     height: 25px;
     padding: 0px 15px;
 }
+
+@media (max-width: 1205px) {
+    header {
+        padding: 2vh;
+    }
+    .container {
+        margin: 0px auto;
+    }
+}
+
+@media (max-width: 980px) {
+    .container {
+        margin: 0px auto;
+    }
+
+    .container1 nav {
+        display: block;
+        height: 50px;
+        text-align: center;
+    }
+
+}
+
+@media (max-width: 340px) {
+
+    .container {
+        margin: 0vh auto;
+    }
+
+    header h2 {
+        font-size: 15px;
+    }
+
+    header h1 {
+        font-size: 50px;
+        line-height: 50px;
+    }
+    header p {
+        font-size: 15px;
+    }
+
+    .container1 > nav {
+        height: 30px;
+        text-align: center;
+
+    }
+
+    .container1 > nav a {
+        width: 20px;
+        height: 20px;
+        box-sizing: border-box;
+        display: inline;
+    }
+
+    .container1 > nav img {
+        display: inline-block;
+        text-align: center;
+        height: 16px;
+        gap: 10px;
+        padding: 10px;
+        margin: 0;
+    }
+}
+
+/* Principal */
+
