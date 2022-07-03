@@ -109,7 +109,7 @@ main {
 
 }
 
-label {
+#ancora {
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.558);
     font-family: 'caviar';
     margin: 10px auto;
@@ -122,11 +122,11 @@ label {
 }
 
 
-label:hover {
+#ancora:hover {
     background-color: #6e706f;
 }
 
-label > a {
+#ancora {
     color: #feffff;
     font-family: 'caviar';
 }
@@ -135,7 +135,7 @@ label > a {
 
 @media (max-width: 600px)
 {
-    label {
+    #ancora {
         padding: 10px 10px;
         background-color: red;
     }
