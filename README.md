@@ -1,5 +1,5 @@
 # pessoal
 <body>
-    <a href="https://deivisonjohnny.github.io/pessoal/projetopessoal/index.html" target="_blank" >Projeto Pessoal</a>
+    <a href="projetopessoal/index.html" target="_blank">Meu site</a>
 </body>
  Projetos pessoais
