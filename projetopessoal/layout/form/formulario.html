@@ -5,29 +5,41 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulario</title>
+    <link rel="stylesheet" href="./css/formstyle.css">
 </head>
 <body>
+    <header>
+        <h1>Quem está acessando meu site?</h1>
+    </header>
     <div id="container">
-        <form action="#" method="post">
-                
-            <label for="inome">Nome</label> <br>
-            <input type="text" name="nome" id="inome"> <br>
-
-            <label for="isobren">Sobrenome</label><br>
-            <input type="text" name="sobren" id="isobren"> <br>
-
-            <label for="iemail">Email</label> <br>
-            <input type="email" name="email" id="iemail"> <br>
-
-            <label for="itele">Telefone</label> <br>
-            <input type="tel" name="tele" id="itele"> <br>
-
-            <p>Sexo</p> <br>
+        <div id="container-form">
+            <div id="logo"><img src="./imgform/bonecobg-recort.png" alt="Logo"></div>
+        
+            <form action="#" method="post">
+                <div id="container-inp">
             
-            <input type="radio" name="sexo" id="imasc">
-            <label for="imasc">Masculino</label> <br>
+                    <label for="inome">Nome</label> <br>
+                    <input type="text" name="nome" id="inome" class="inptxt" autocomplete="off"> <br>
+                    <label for="isobren">Sobrenome</label><br>
+                    <input type="text" name="sobren" id="isobren" class="inptxt" autocomplete="off"> <br>
+                    <label for="iemail">Email</label> <br>
+                    <input type="email" name="email" id="iemail" class="inptxt"  placeholder="exemple@exemple.com"> <br>
+                    <label for="itele">Telefone</label> <br>
+                    <input type="tel" name="tele" id="itele" class="inptxt" placeholder="(DDD) 98888-7777" autocomplete="tel"> <br>
+                    <p>Sexo</p>
             
-        </form>
+                    <input type="radio" name="sexo" id="imasc" checked>
+                    <label for="imasc">Masculino</label> <br>
+                    <input type="radio" name="sexo" id="ifemi">
+                    <label for="ifemi">Feminino</label> <br>
+                    <label for="iinsta" id="lab-insta"><abbr title="Deixe seu @ para que eu possa te seguir" style="text-decoration: none;" id="abbr-insta"><img src="./imgform/instagram30.png" alt="logo-instagram" id="instaform"> Instagram</abbr></label>
+                    <input type="text" name="inst" id="iinsta" placeholder="Exemple: @deivisonjohnny" class="inptxt" autocomplete="nickname"> <br>
+                    <input type="submit" value="Enviar" id="btt" onclick="clicar()">
+            
+                </div>
+            </form>
+        </div>
     </div>
 </body>
+<script src="./script/script-form.js"></script>
 </html>

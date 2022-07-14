@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+
+@font-face {
+    font-family: 'Heavitas';
+    src: url(../font/Heavitas.ttf);
+}
+
+:root {
+    --font: 'Rubik', sans-serif;
+    --font1: 'Heavitas', sans-serif;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #0046DE;
+    height: 100%;
+    width: 100%;
+}
+
+header {
+    text-align: center;
+    padding-top: 40px;
+
+}
+
+h1 {
+    color: white;
+    font-family: var(--font1);
+    font-weight: lighter;
+}
+
+#container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: #BF15D4;
+    border-radius: 10px;
+    height: max-content;
+    
+    transform: translate(-50%, -50%);
+
+}
+
+#container-form {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.36);
+    border-radius: 10px;
+    width: 60vw;
+    height: 60vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    justify-items: center;
+    flex-wrap: wrap;
+ 
+}
+
+
+#logo > img {
+    border-bottom: 3px rgba(4, 4, 4, 0.5) solid;
+    height: 40vh;
+
+}
+
+#container-inp {
+    width: max-content;
+    padding: 15px 10px;
+    margin: auto;
+}
+
+form {
+    background-color: white;
+    width: 275px;
+    font-family: var(--font);
+    text-shadow: 0px 0px 1px #2d2d2d;
+    font-weight: lighter;
+    border-radius: 5px;
+}
+
+.inptxt {
+    border-radius: 5px;
+    border: .5px rgba(0, 0, 0, 0.400) solid;
+    width: 200px;
+    padding: 5px;
+}
+
+.inptxt:focus {
+    outline-style: solid;
+    outline-width: .5px;
+    outline-color: #0046de9a;
+}
+#instaform {
+    height: 18px;
+}
+
+
+#abbr-insta {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-items: center;
+    padding: 5px 5px 5px 0px;
+}
+
+#btt {
+    display: block;
+    padding: 10px 30px;
+    margin: 15px auto;
+    border-radius: 5px;
+    border: none;
+    background-color: #26b0e7;
+    font-family: var(--font);
+    font-weight: bold;
+    font-size: 16px;
+    color: white;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.422);
+}
+
+#btt:hover {
+    background-color: #006c96;
+}
+
+#btt:focus {
+    background-color: #D4A10B;
+}
