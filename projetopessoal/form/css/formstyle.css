@@ -56,9 +56,9 @@ h1 {
     align-items: center;
     justify-items: center;
     flex-wrap: wrap;
+    flex-direction: column;
  
 }
-
 
 #logo > img {
     border-bottom: 3px rgba(4, 4, 4, 0.5) solid;
@@ -127,3 +127,9 @@ form {
 #btt:focus {
     background-color: #D4A10B;
 }
+
+/*
+condigurações para tamanhos de telas abaixo
+
+Media Query
+*/
