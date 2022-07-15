@@ -37,6 +37,7 @@ h1 {
 main {
     display: flex;
     align-items: center;
+    max-height: 80vh;
 }
 
 #container {
