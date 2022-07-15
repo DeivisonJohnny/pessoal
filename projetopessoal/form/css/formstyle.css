@@ -19,7 +19,7 @@
 body, html {
     background-color: #0046DE;
     height: max-content;
-    width: 100%;
+    width: 100vw;
 }
 
 header {
