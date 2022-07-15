@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fim do formulário</title>
+    <style>
+
+        @font-face {
+            font-family: 'Heavitas';
+            src: url(../font/Heavitas.ttf);
+        }
+
+        :root {
+            --font: 'Heavitas', sans-serif;
+        }
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        body, html {
+            background-color: #0046DE;
+            width: 100vw;
+        }
+
+        header {
+            max-width: 650px;
+            margin: auto;
+            padding: 40px;
+        }
+
+        h1, h2 {
+            font-family: var(--font);
+            color: white;
+            font-weight: lighter;
+
+
+        }
+
+        h2 {
+            width: 550px;
+            margin: auto;
+            text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.400);
+        }
+
+        #container {
+            padding: 10px;
+            height: min-content;
+        }
+
+        #container > div {
+            margin: 5vh auto 0px auto;
+            width: min-content;
+            padding: 20px;
+            background-color: #BF15D4;
+            border-radius: 10px;
+
+            box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.666);
+            padding: 20px;
+        }
+        
+        iframe {
+            display: inline-block;
+            border-radius: 10px;
+            width: 560px;
+            height: 315px;
+        }
+
+        @media (max-width: 630px) {
+
+            iframe {
+                width: 460px;
+                height: 215px;
+            }
+        }
+        
+        @media (max-width: 520px) {
+
+            iframe {
+                width: 380px;
+                height: 200px;
+            }
+        }
+
+                
+        @media (max-width: 440px) {
+
+            iframe {
+                width: 260px;
+                height: 160px;
+            }
+        }
+
+
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Apenas para não ficar vazio</h1>
+    </header>
+    <h2>Fique com um video humor negro &#x1F480; </h2>
+    <div id="container">
+        
+        <div>
+            <iframe  src="https://www.youtube.com/embed/ojgaIg0UFME?start=52" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </div>
+</body>
+</html>

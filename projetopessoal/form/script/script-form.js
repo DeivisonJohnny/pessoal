@@ -4,4 +4,6 @@ var btt = document.querySelector('#btt')
 
 function clicar() {
     alert('Muito obrigado por interagir com meu site!!!')
+    location.href = './direc/directoform.html'
+    
 }
