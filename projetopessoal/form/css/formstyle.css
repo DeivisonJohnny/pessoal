@@ -40,6 +40,10 @@ h1, h2 {
     color: white;
 }
 
+h2 {
+    color: #7097EC;
+}
+
 main {
     padding: 10px;
 }
