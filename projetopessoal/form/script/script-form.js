@@ -7,3 +7,24 @@ function clicar() {
     location.href = './direc/directoform.html'
     
 }
+
+var dg = document.querySelector('#digit-auto')
+var text = "@DEVDEIVISONJOHNNY"
+var intervalo = 150
+
+function showText(dg, text, intervalo) {
+    const char = text.split("").reverse()
+
+    const typer = setInterval(() => {
+        if(!char.length) {
+            return clearInterval(typer)
+        }
+
+        const next = char.pop()
+
+        dg.innerHTML += next
+
+    }, intervalo)
+}
+
+showText(dg, text, intervalo)
